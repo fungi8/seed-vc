@@ -426,7 +426,7 @@ def main(args):
                  examples=examples,
                  cache_examples=False,
                  )
-    iface.launch(server_name="0.0.0.0", port=7860)
+    iface.launch(server_name="0.0.0.0", port='7860')
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
