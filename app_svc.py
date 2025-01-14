@@ -425,13 +425,13 @@ def main(args):
                  title="Seed Voice Conversion",
                  examples=examples,
                  cache_examples=False,
-                 ).launch(share=args.share,)
+                 ).launch(share=args.share,server_name='0.0.0.0',server_port='7860')
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--checkpoint-path", type=str, help="Path to the checkpoint file", default=None)
     parser.add_argument("--config-path", type=str, help="Path to the config file", default=None)
-    parser.add_argument("--share", type=str2bool, nargs="?", const=True, default=False, help="Whether to share the app")
+    parser.add_argument("--share", type=str2bool, nargs="?", const=True, default=True, help="Whether to share the app")
     parser.add_argument("--fp16", type=str2bool, nargs="?", const=True, help="Whether to use fp16", default=True)
     parser.add_argument("--gpu", type=int, help="Which GPU id to use", default=0)
     args = parser.parse_args()
