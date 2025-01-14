@@ -418,14 +418,15 @@ def main(args):
     outputs = [gr.Audio(label="Stream Output Audio / 流式输出", streaming=True, format='mp3'),
                gr.Audio(label="Full Output Audio / 完整输出", streaming=False, format='wav')]
 
-    gr.Interface(fn=voice_conversion,
+    iface = gr.Interface(fn=voice_conversion,
                  description=description,
                  inputs=inputs,
                  outputs=outputs,
                  title="Seed Voice Conversion",
                  examples=examples,
                  cache_examples=False,
-                 ).launch(share=args.share,server_name='0.0.0.0',server_port='7860')
+                 )
+    iface.launch(server_name="0.0.0.0", port=7860)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
