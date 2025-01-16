@@ -26,7 +26,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/nanrong/python_project/seed-vc&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/nanrong/python_project/seed-vc/infput&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -37,6 +37,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\nanrong\python_project\seed-vc\infput" />
       <recent name="C:\nanrong\python_project\seed-vc" />
     </key>
   </component>
@@ -56,7 +57,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1736843720841</updated>
-      <workItem from="1736843721955" duration="6704000" />
+      <workItem from="1736843721955" duration="8401000" />
     </task>
     <servers />
   </component>
