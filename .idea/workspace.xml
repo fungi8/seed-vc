@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ae7c575-e3b4-4b70-92c0-5826ab63073a" name="Changes" comment="" />
+    <list default="true" id="3ae7c575-e3b4-4b70-92c0-5826ab63073a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vit/output_data/output_0.wav" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,6 +64,8 @@
       <option name="presentableId" value="Default" />
       <updated>1736843720841</updated>
       <workItem from="1736843721955" duration="11482000" />
+      <workItem from="1737335673390" duration="15000" />
+      <workItem from="1737335689820" duration="2214000" />
     </task>
     <servers />
   </component>
